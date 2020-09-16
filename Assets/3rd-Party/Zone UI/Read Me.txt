@@ -1,0 +1,19 @@
+Zone - Complete Main Menu UI (v1.2.0)
+
+Import TextMeshPro and its essentials from Package Manager if you haven't already!
+If you want to disable tooltips, delete Tooltip Manager script from Menu Manager, then delete Tooltip object from hierarchy.
+
+You can download InputManager.asset from here, or check Documentation page 9 for Gamepad inputs:
+https://drive.google.com/open?id=11frtDK2w9JFgCHKrn9wNc38mceYMQh21
+
+Special thanks to:
+glennpow (Unity forums)
+icons8 - moose
+
+Contact me via:
+E-mail: isa.steam@outlook.com
+Website: https://www.michsky.com
+Discord: https://discord.gg/VXpHyUt
+YouTube: https://www.youtube.com/c/michsky
+Steam: https://steamcommunity.com/id/geezjesus
+Unity Connect: https://connect.unity.com/u/isa-kocak-1

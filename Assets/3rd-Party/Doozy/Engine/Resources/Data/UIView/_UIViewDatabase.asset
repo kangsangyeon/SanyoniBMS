@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889794c411054f7ca8e6fbdc6728c846, type: 3}
+  m_Name: _UIViewDatabase
+  m_EditorClassIdentifier: 
+  DatabaseType: 2
+  CategoryNames:
+  - Custom
+  - General
+  - Persistent
+  - ResultScene
+  - SanyoniBMS - LoadMusicScene
+  - SanyoniBMS - PlayGameScene
+  - SanyoniBMS - SelectModeScene
+  - SanyoniBMS - SelectMusicScene
+  Categories:
+  - {fileID: 11400000, guid: 8d10b48782aa3e44fb256b6cbc55db32, type: 2}
+  - {fileID: 11400000, guid: 59aa0a19882bf5f40ad2a5b9f8762c10, type: 2}
+  - {fileID: 11400000, guid: 64a1da26b2f0c4c47956a3e4036e41bf, type: 2}
+  - {fileID: 11400000, guid: cacd06273ba390b418ed69fd87f1d5b5, type: 2}
+  - {fileID: 11400000, guid: 06faf3a2651d18c4daece18f177ecef6, type: 2}
+  - {fileID: 11400000, guid: 8a56a463f5251c249afd5e142ad7589c, type: 2}
+  - {fileID: 11400000, guid: 96a832a583648264990ef990a226ab11, type: 2}
