@@ -4,6 +4,8 @@
 <b>유니티</b>로 만든 <b><a href="https://ko.wikipedia.org/wiki/Be-Music_Script">BMS</a></b>포맷을 채용한 <b>건반리듬게임</b>입니다.
 
 [![Preview](https://img.youtube.com/vi/nigO9p7VPcw/0.jpg)](https://www.youtube.com/watch?v=nigO9p7VPcw)
+시연 영상(youtube): https://www.youtube.com/watch?v=nigO9p7VPcw
+
 
 본인은 Ez2AC시리즈와 DJMax시리즈 및 기타 리듬게임들의 오랜 열혈팬입니다!
 
