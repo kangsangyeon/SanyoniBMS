@@ -384,11 +384,10 @@ namespace SanyoniBMS
                 // 처리 시도할 노트는 입력한 레인의 가장 첫 번째 노트이다.
                 Note note = noteList[0];
 
-                // 1. 판정시간보다 살짝이라도 뒤늦은 노트이거나, 
-                // 2. 지난 노트시간과 현재 노트의 중간 이상 진행되었다면
-                bool isLatedNote = note.TimingMillis <= ElapsedPlayingTimeMillis;
+                // 지난 노트 타이밍과 현재 노트 타이밍 사이의 중간 이상 진행되었다면
+                // 키 사운드를 현재 노트의 키 사운드로 변경합니다.
                 bool overHalfOverDifference = (note.TimingMillis + this.m_LatestKeysoundUpdateTimeDict[_laneType]) * 0.5 < ElapsedPlayingTimeMillis;
-                if (isLatedNote || overHalfOverDifference)
+                if (overHalfOverDifference)
                 {
                     this.m_KeySoundByLaneDict[_laneType] = note.KeySound;
                     this.m_LatestKeysoundUpdateTimeDict[_laneType] = note.TimingMillis;
