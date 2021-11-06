@@ -4,9 +4,10 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-Assets/AssetStoreTools*
-Assets/Plugins*
-Assets/3rd-Party*
+
+# Assets폴더 내에서 @Game폴더 안의 내용을 제외한 모든 파일을 제외합니다.
+Assets/*
+!Assets/@Game
 
 # Visual Studio cache directory
 .vs/
