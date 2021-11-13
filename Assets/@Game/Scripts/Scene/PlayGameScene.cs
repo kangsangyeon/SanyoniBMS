@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.Video;
 using Doozy.Engine;
 using Doozy.Engine.Events;
-using Adrenak.GPUVideoPlayer;
 using UniRx;
 using Sirenix.OdinInspector;
 
