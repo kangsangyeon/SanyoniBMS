@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 738390791}
   - component: {fileID: 738390790}
   m_Layer: 5
-  m_Name: RetryButton
+  m_Name: Button_Retry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2940,7 +2940,7 @@ GameObject:
   - component: {fileID: 1746606512}
   - component: {fileID: 1746606511}
   m_Layer: 5
-  m_Name: HomeButton
+  m_Name: Button_Home
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3211,7 +3211,7 @@ GameObject:
   - component: {fileID: 1853969761}
   - component: {fileID: 1853969760}
   m_Layer: 5
-  m_Name: View - Result
+  m_Name: View_Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3725,7 +3725,7 @@ MonoBehaviour:
   UpdateHideProgressorOnShow: 0
   UpdateShowProgressorOnHide: 0
   UseCustomStartAnchoredPosition: 1
-  ViewCategory: ResultScene
+  ViewCategory: Custom
   ViewName: Result
 --- !u!225 &1853969763
 CanvasGroup:
@@ -3946,7 +3946,7 @@ GameObject:
   - component: {fileID: 1981998671}
   - component: {fileID: 1981998670}
   m_Layer: 0
-  m_Name: Canvas - ResultScene
+  m_Name: Canvas_ResultScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3970,7 +3970,7 @@ MonoBehaviour:
   StartScale: {x: 1, y: 1, z: 1}
   StartAlpha: 1
   CanvasName: ResultScene
-  CustomCanvasName: 0
+  CustomCanvasName: 1
   DontDestroyCanvasOnLoad: 0
 --- !u!114 &1981998671
 MonoBehaviour:
@@ -4131,7 +4131,7 @@ GameObject:
   - component: {fileID: 2039266485}
   - component: {fileID: 2039266484}
   m_Layer: 0
-  m_Name: CanvasCamera
+  m_Name: Camera_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4205,7 +4205,7 @@ GameObject:
   - component: {fileID: 2130518158}
   - component: {fileID: 2130518157}
   m_Layer: 0
-  m_Name: Result Scene
+  m_Name: Scene_Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

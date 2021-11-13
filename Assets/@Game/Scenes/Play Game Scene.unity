@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 191420486}
   - component: {fileID: 191420485}
   m_Layer: 0
-  m_Name: Camera - Background Canvas
+  m_Name: Camera_Background Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 266329749}
   - component: {fileID: 266329748}
   m_Layer: 5
-  m_Name: Canvas - PlayGameScene - Foreground
+  m_Name: Canvas_PlayGameScene_Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 352316336}
   - component: {fileID: 352316335}
   m_Layer: 5
-  m_Name: Canvas - PlayGameScene - Background
+  m_Name: Canvas_PlayGameScene_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 355479754}
   - component: {fileID: 355479753}
   m_Layer: 5
-  m_Name: View - Clear
+  m_Name: View_Clear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 442321928}
   - component: {fileID: 442321927}
   m_Layer: 0
-  m_Name: Camera - Foreground Canvas
+  m_Name: Camera_Foreground Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1208,7 +1208,7 @@ GameObject:
   - component: {fileID: 477177237}
   - component: {fileID: 477177236}
   m_Layer: 5
-  m_Name: View - AutoPlay
+  m_Name: View_AutoPlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 491798440}
   - component: {fileID: 491798439}
   m_Layer: 5
-  m_Name: View - FullCombo
+  m_Name: View_FullCombo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2316,7 +2316,7 @@ GameObject:
   - component: {fileID: 531096420}
   - component: {fileID: 531096421}
   m_Layer: 0
-  m_Name: PlayGameScene
+  m_Name: Scene_PlayGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 653816613}
   - component: {fileID: 653816612}
   m_Layer: 5
-  m_Name: Button - Exit
+  m_Name: Button_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5078,7 +5078,7 @@ GameObject:
   - component: {fileID: 749847930}
   - component: {fileID: 749847929}
   m_Layer: 5
-  m_Name: View - Pause
+  m_Name: View_Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6223,7 +6223,7 @@ GameObject:
   - component: {fileID: 1515400151}
   - component: {fileID: 1515400150}
   m_Layer: 5
-  m_Name: Button - Continue
+  m_Name: Button_Continue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8858,7 +8858,7 @@ GameObject:
   - component: {fileID: 1884948185}
   - component: {fileID: 1884948191}
   m_Layer: 5
-  m_Name: View - Bga
+  m_Name: View_Bga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

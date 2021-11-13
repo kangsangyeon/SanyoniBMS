@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 863437604}
   - component: {fileID: 863437603}
   m_Layer: 5
-  m_Name: Txt_Loading
+  m_Name: Text - Loading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 967753422}
   - component: {fileID: 967753421}
   m_Layer: 5
-  m_Name: Txt_Artist
+  m_Name: Text - Artist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 1484659562}
   - component: {fileID: 1484659561}
   m_Layer: 5
-  m_Name: Img_LoadingBar
+  m_Name: Image - LoadingBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 1714196050}
   - component: {fileID: 1714196052}
   m_Layer: 5
-  m_Name: Txt_Title
+  m_Name: Text - Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1481,7 +1481,7 @@ GameObject:
   - component: {fileID: 1981998671}
   - component: {fileID: 1981998670}
   m_Layer: 0
-  m_Name: Canvas - LoadMusicScene
+  m_Name: Canvas_LoadMusicScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1599,7 +1599,7 @@ GameObject:
   - component: {fileID: 2039266485}
   - component: {fileID: 2039266484}
   m_Layer: 0
-  m_Name: CanvasCamera
+  m_Name: Camera_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1764,7 +1764,7 @@ GameObject:
   - component: {fileID: 2130518158}
   - component: {fileID: 2130518157}
   m_Layer: 0
-  m_Name: Load Music Scene
+  m_Name: Scene_Load Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

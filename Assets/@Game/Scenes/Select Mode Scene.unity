@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 1321552490}
   - component: {fileID: 1321552491}
   m_Layer: 0
-  m_Name: MasterCanvas
+  m_Name: Canvas_SelectModeScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,8 +267,8 @@ MonoBehaviour:
   StartRotation: {x: 0, y: 0, z: 0}
   StartScale: {x: 1, y: 1, z: 1}
   StartAlpha: 1
-  CanvasName: MasterCanvas
-  CustomCanvasName: 0
+  CanvasName: SelectModeScene
+  CustomCanvasName: 1
   DontDestroyCanvasOnLoad: 0
 --- !u!114 &1321552486
 MonoBehaviour:
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 1843043579}
   - component: {fileID: 1843043578}
   m_Layer: 0
-  m_Name: View - Main Menu
+  m_Name: View_Main Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -975,7 +975,7 @@ MonoBehaviour:
   UpdateHideProgressorOnShow: 0
   UpdateShowProgressorOnHide: 0
   UseCustomStartAnchoredPosition: 0
-  ViewCategory: SanyoniBMS - SelectModeScene
+  ViewCategory: Custom
   ViewName: Main Menu
 --- !u!225 &1843043581
 CanvasGroup:
@@ -1114,7 +1114,7 @@ GameObject:
   - component: {fileID: 1954557037}
   - component: {fileID: 1954557036}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera_Main
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
