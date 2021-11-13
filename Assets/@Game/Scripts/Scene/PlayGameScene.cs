@@ -60,8 +60,7 @@ namespace SanyoniBMS
             this.m_BgaImage.color = Color.black;
 
             yield return new WaitForSeconds(PlayGameScene.SceneEndDelay);
-            ResultScene.PlayResult = m_Player.m_PlayResult;
-            Doozy.Engine.GameEventMessage.SendEvent(Global.StartResultSceneEventText);
+            GoToResultScene();
         }
 
         private void Update()
@@ -117,6 +116,15 @@ namespace SanyoniBMS
             {
                 SetPaused(!GetPaused());
             }
+        }
+
+        public void GoToResultScene()
+        {
+            if (m_Player.IsBMSPlayFinished == true)
+                this.m_Player.SetPause(true);
+
+            ResultScene.PlayResult = m_Player.m_PlayResult;
+            Doozy.Engine.GameEventMessage.SendEvent(Global.StartResultSceneEventText);
         }
 
         private void OnChangePaused(bool _bNewPaused)
