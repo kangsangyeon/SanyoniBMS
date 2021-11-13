@@ -89,7 +89,7 @@ namespace SanyoniBMS
             this.ObserveEveryValueChanged(x => MusicScrollView.SelectedItemIndex).Subscribe(x => OnUpdateSelectedMusicIndex(x, 0));
 
             // 패턴 셀렉터 이벤트
-            this.m_PatternSelector.selectorEvent.AddListener(x => OnUpdateSelectedMusicIndex(this.m_SelectedMusicIndex, x));
+            this.m_PatternSelector.onValueChanged.AddListener(x => OnUpdateSelectedMusicIndex(this.m_SelectedMusicIndex, x));
 
             // 모달 UI 이벤트
             this.m_MW_QuitToMainMenu.onConfirm.AddListener(() =>
