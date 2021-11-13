@@ -22,6 +22,20 @@ namespace SanyoniBMS
         public Image m_BgaImage;
         public RawImage m_BgaRawImage;
         public GameObject m_AutoPlayView;
+        public GameObject m_PausedView;
+
+        private bool m_bPaused;
+
+        public bool GetPaused() => m_bPaused;
+
+        public void SetPaused(bool _bNewPaused)
+        {
+            if (m_bPaused == _bNewPaused)
+                return;
+
+            m_bPaused = _bNewPaused;
+            OnChangePaused(_bNewPaused);
+        }
 
         protected override void Awake()
         {
@@ -32,7 +46,10 @@ namespace SanyoniBMS
 
         private IEnumerator Start()
         {
-            this.m_AutoPlayView.SetActive(false);
+            this.m_AutoPlayView.SetActive(true);
+            this.m_AutoPlayView.GetComponent<CanvasGroup>().alpha = 0;
+            this.m_PausedView.SetActive(true);
+            this.m_PausedView.GetComponent<CanvasGroup>().alpha = 0;
 
             yield return new WaitUntil(() => (m_Player = BMSPlayer.Instance) != null);
             yield return new WaitUntil(() => m_Player.m_IsPrepared == true && m_Player.m_IsPlaying == false && this.m_Player.m_IsPaused == false);
@@ -49,6 +66,8 @@ namespace SanyoniBMS
 
         private void Update()
         {
+            UpdatePaused();
+
             UpdateMovespeed();
 
             UpdateToggleAutoPlay();
@@ -86,10 +105,24 @@ namespace SanyoniBMS
             if (Input.GetKeyDown(KeyCode.F1))
             {
                 this.m_Player.m_IsAutoPlay = !this.m_Player.m_IsAutoPlay;
-                if (this.m_AutoPlayView != null) this.m_AutoPlayView.SetActive(this.m_Player.m_IsAutoPlay);
+                if (this.m_AutoPlayView != null) this.m_AutoPlayView.GetComponent<CanvasGroup>().alpha = this.m_Player.m_IsAutoPlay ? 1 : 0;
             }
             if (Input.GetKeyDown((KeyCode.F2))) this.m_Player.m_IsAutoScratch = !this.m_Player.m_IsAutoScratch;
 
+        }
+
+        private void UpdatePaused()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SetPaused(!GetPaused());
+            }
+        }
+
+        private void OnChangePaused(bool _bNewPaused)
+        {
+            this.m_PausedView.GetComponent<CanvasGroup>().alpha = _bNewPaused ? 1 : 0;
+            this.m_Player.SetPause(_bNewPaused);
         }
 
         //TODO: Editor에서 Pause될 때 이게 안먹힌다.. editor에서 멈출 때도 이게 호출되게끔 해야한다.
