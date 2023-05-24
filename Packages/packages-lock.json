@@ -7,6 +7,20 @@
       "dependencies": {},
       "hash": "c5f7fa867854ace2d30bc5cfb0f1f2a570abf54e"
     },
+    "com.neuecc.unirx": {
+      "version": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "284d5c50d3f1ddd9fa7df3d382ea904732a9c2ff"
+    },
+    "com.sanyoni.sanyonilib": {
+      "version": "https://github.com/kangsangyeon/SanyoniLib.git?path=Assets/@SanyoniLib",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "38f90474f042c3cd35106e862ed07091593c8248"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -85,6 +99,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.purchasing": {
       "version": "3.2.2",
       "depth": 0,
@@ -154,7 +175,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "18c1db90a91f5965260e6a216d9ec6aea51c4968"
+      "hash": "e5d10d3e5961848f93be43c2911344750b509a88"
     },
     "nuget.mono-cecil": {
       "version": "0.1.6-preview",

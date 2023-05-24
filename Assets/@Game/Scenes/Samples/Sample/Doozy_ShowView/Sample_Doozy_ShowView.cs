@@ -1,9 +1,7 @@
 ﻿using SanyoniBMS;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Test_Doozy_ShowView : MonoBehaviour
+public class Sample_Doozy_ShowView : MonoBehaviour
 {
     bool m_Show = false;
 

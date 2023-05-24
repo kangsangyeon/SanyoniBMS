@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 namespace SanyoniBMS
 {
 
-    public class Test_BMSPlayerLauncher : MonoBehaviour
+    public class Sample_BMSPlayerLauncher : MonoBehaviour
     {
         public string BMSPath = @"D:\BMSFiles\[COLORTRONICS2017] LoveSketchNote2017Mix_OGG";
         BMSData data;

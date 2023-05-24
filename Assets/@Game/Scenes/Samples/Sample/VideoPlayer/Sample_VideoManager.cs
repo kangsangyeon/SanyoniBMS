@@ -1,9 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using SanyoniLib.UnityEngineWrapper;
 using UnityEngine;
-using UnityEngine.Video;
 
-public class Test_VideoManager : MonoBehaviour
+public class Sample_VideoManager : MonoBehaviour
 {
     public string videoUrl;
     [SerializeField] private VideoManager videoManager;
@@ -11,7 +10,8 @@ public class Test_VideoManager : MonoBehaviour
 
     private IEnumerator Start()
     {
-        videoManager.Initialize(renderTexture);
+        // TODO
+        // videoManager.Initialize(renderTexture);
         yield return videoManager.CPrepareVideoUrl(videoUrl);
 
         videoManager.PlayVideo(true);

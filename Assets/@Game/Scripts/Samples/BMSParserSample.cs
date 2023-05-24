@@ -5,7 +5,7 @@ using UnityEngine;
 namespace SanyoniBMS
 {
 
-    public class BMSParserTest : MonoBehaviour
+    public class BMSParserSample : MonoBehaviour
     {
 
         public static string BMSRootPath = @"D:\BMSFiles\";

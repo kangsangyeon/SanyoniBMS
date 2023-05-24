@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 using B83.Image.BMP;
 using Sirenix.OdinInspector;
 using SanyoniLib.UnityEngineHelper;
-using Sirenix.Utilities;
+using SanyoniLib.UnityEngineWrapper;
 
 namespace SanyoniBMS
 {

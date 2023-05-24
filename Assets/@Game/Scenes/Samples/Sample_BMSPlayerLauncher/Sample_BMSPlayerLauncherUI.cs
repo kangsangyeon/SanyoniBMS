@@ -7,7 +7,7 @@ using System.Text;
 namespace SanyoniBMS
 {
 
-    public class Test_BMSPlayerLauncherUI : MonoBehaviour
+    public class Sample_BMSPlayerLauncherUI : MonoBehaviour
     {
         public TextMeshProUGUI TextComponent;
 

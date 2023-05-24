@@ -5,8 +5,9 @@ using UnityEngine.UI;
 using TMPro;
 using Sirenix.OdinInspector;
 using UniRx;
-using Michsky.UI.ModernUIPack;
 using DG.Tweening;
+using Michsky.MUIP;
+using SanyoniLib.UnityEngineWrapper;
 
 namespace SanyoniBMS
 {
@@ -45,7 +46,7 @@ namespace SanyoniBMS
         [SerializeField] private MusicScrollView m_MusicScrollView;
 
         // 모달 UI
-        [SerializeField] private Michsky.UI.ModernUIPack.ModalWindowManager m_MW_QuitToMainMenu;
+        [SerializeField] private Michsky.MUIP.ModalWindowManager m_MW_QuitToMainMenu;
 
         private void Awake()
         {
@@ -105,7 +106,8 @@ namespace SanyoniBMS
             this.m_BackgroundImageGroup.DOFade(0f, 1f);
             this.m_BackgroundRawImageGroup.DOFade(1f, 1f);
 
-            this.m_VideoManager.PauseVideo();
+            // TODO
+            // this.m_VideoManager.PauseVideo();
             yield return this.m_VideoManager.CPrepareVideoUrl(url);
             this.m_VideoManager.PlayVideo(true);
         }
@@ -115,7 +117,8 @@ namespace SanyoniBMS
             this.m_BackgroundRawImageGroup.DOFade(0f, 1f);
             this.m_BackgroundImageGroup.DOFade(1f, 1f);
 
-            this.m_VideoManager.PauseVideo();
+            // TODO
+            // this.m_VideoManager.PauseVideo();
 
             this.m_BackgroundImage.sprite = sprite;
         }
@@ -178,7 +181,7 @@ namespace SanyoniBMS
                     this.m_TitleText.text = musicData.Title;
                     this.m_ArtistText.text = musicData.Artist;
 
-                    this.m_PatternSelector.itemList.Clear();
+                    this.m_PatternSelector.items.Clear();
                     foreach (var item in musicData.m_BMSData.BMSPatternDatas) this.m_PatternSelector.CreateNewItem(item.PatternTitle);
                     this.m_PatternSelector.SetupSelector();
 

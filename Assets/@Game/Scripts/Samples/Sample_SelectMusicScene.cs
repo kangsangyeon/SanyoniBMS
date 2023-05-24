@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 namespace SanyoniBMS
 {
 
-    public class Test_SelectMusicScene : MonoBehaviour
+    public class Sample_SelectMusicScene : MonoBehaviour
     {
         private void Start()
         {
